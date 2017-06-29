@@ -18,7 +18,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic");
 
-/** 
+/**
   * Reset
   * Repeatable Patterns
   * Top
@@ -37,7 +37,7 @@
   * 404
   * Parallax
   * Revolution Slider
-  * Preload 
+  * Preload
 */
 
 /* Reset
@@ -56,28 +56,28 @@
 	}
 
 	a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, caption, canvas, center, cite, code,
-	dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, form, footer, header, hgroup, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav,object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, tt, table, tbody, textarea, tfoot, thead, time, tr, th, td, u, ul, var, video  { 
-		font-family: inherit; 
-		font-size: 100%; 
-		font-weight: inherit; 
-		font-style: inherit; 
-		vertical-align: baseline; 
-		margin: 0; 
-		padding: 0; 
-		border: 0; 
+	dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, form, footer, header, hgroup, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav,object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, tt, table, tbody, textarea, tfoot, thead, time, tr, th, td, u, ul, var, video  {
+		font-family: inherit;
+		font-size: 100%;
+		font-weight: inherit;
+		font-style: inherit;
+		vertical-align: baseline;
+		margin: 0;
+		padding: 0;
+		border: 0;
 		outline: 0;
 		background: transparent;
 	}
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
-	                          
+
 	ol, ul {
 		list-style: none;
 	}
 
-	blockquote, q { 
+	blockquote, q {
 		-webkit-hyphens: none;
 		  -moz-hyphens: none;
 		   -ms-hyphens: none;
@@ -93,8 +93,8 @@
 		outline: 0;
 	}
 
-	table { 
-		border-collapse: collapse; 
+	table {
+		border-collapse: collapse;
 		border-spacing: 0;
 	}
 
@@ -179,7 +179,7 @@
 	    url('../fonts/NoteraPersonalUseOnly.svg') format('svg'); /* Legacy iOS */  font-weight: normal;
 	  font-style: normal;
 	}
-	
+
 /* Repeatable Patterns
 -------------------------------------------------------------- */
 *,
@@ -193,12 +193,12 @@
 body {
 	font: 15px/28px "Karla", sans-serif;
 	font-weight: 400;
-	background-color: #fff;		
+	background-color: #fff;
 	color: #777777;
 	line-height: 1.8;
 }
 
-a {		
+a {
 	text-decoration: none;
 	-webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
@@ -238,7 +238,7 @@ img {
 	   -moz-transition: all 0.3s ease-in-out;
 		-ms-transition: all 0.3s ease-in-out;
 		 -o-transition: all 0.3s ease-in-out;
-			transition: all 0.3s ease-in-out;		
+			transition: all 0.3s ease-in-out;
 }
 
 .img-left {
@@ -274,13 +274,13 @@ button {
 button,
 input[type="button"],
 input[type="reset"],
-input[type="submit"] {		
+input[type="submit"] {
     font-size: 14px;
     font-family: "Karla", sans-serif;
-    font-weight: 700;   
+    font-weight: 700;
     color: #fff;
     background: transparent;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     padding: 24px 120px 21px 124px;
     letter-spacing: 1.2px;
     -webkit-transition: all 0.3s ease 0s;
@@ -304,7 +304,7 @@ input[type="email"],
 input[type="url"],
 input[type="search"],
 input[type="tel"],
-input[type="color"] {	
+input[type="color"] {
 	background: rgba(0, 0, 0, 0.05);
     position: relative;
     border: none;
@@ -384,7 +384,7 @@ input[type="color"]:focus {
 			box-shadow: none;
 }
 
-input[type="submit"], 
+input[type="submit"],
 button[type="submit"], .button {
     color: #ffffff;
     background-image: none;
@@ -405,7 +405,7 @@ button[type="submit"], .button {
             border-radius: 2px;
 }
 
-input[type="submit"]:hover, 
+input[type="submit"]:hover,
 button[type="submit"]:hover, .button:hover {
     background: #333333;
     color: #ffffff;
@@ -424,7 +424,7 @@ input[type="checkbox"] {
 textarea:-moz-placeholder,
 textarea::-moz-placeholder,
 input:-moz-placeholder,
-input::-moz-placeholder {		
+input::-moz-placeholder {
 	color: #999999;
 	opacity: 1;
 }
@@ -448,25 +448,25 @@ input::-webkit-input-placeholder {
 	background-image: none;
 }
 
-textarea, 
+textarea,
 input[type="text"],
-input[type="password"], 
-input[type="datetime"], 
-input[type="datetime-local"], 
-input[type="date"], 
-input[type="month"], 
-input[type="time"], 
-input[type="week"], 
-input[type="number"], 
-input[type="email"], 
-input[type="url"], 
-input[type="search"], 
-input[type="tel"], 
-input[type="color"], 
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
 .uneditable-input,
 .dropdown-menu,
-.navbar .nav > .active > a, 
-.navbar .nav > .active > a:hover, 
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
 	-webkit-appearance: none;
 	text-shadow: none;
@@ -506,7 +506,7 @@ input[type="submit"] {
   	}
 }
 
-/* Top 
+/* Top
 ---------------------------------------------------------------*/
 .top {
 	background-color: #00bac9;
@@ -515,7 +515,7 @@ input[type="submit"] {
 /* Infomation top */
 .flat-address ul {
 	margin: 0 0;
-	padding: 0;	
+	padding: 0;
 }
 
 .flat-address ul > li {
@@ -615,7 +615,7 @@ input[type="submit"] {
 	   -moz-transform: translate(0, 0);
 	    -ms-transform: translate(0, 0);
 	     -o-transform: translate(0, 0);
-	        transform: translate(0, 0); 
+	        transform: translate(0, 0);
 }
 
 .top .top-navigator > ul > li > ul li:first-child {
@@ -651,7 +651,7 @@ input[type="submit"] {
 }
 
 .site-brand .header-widgets {
-	float: right;
+	float: left;
 }
 
 .site-brand .header-widgets .widget {
@@ -689,7 +689,8 @@ input[type="submit"] {
 	display: table-cell;
     vertical-align: middle;
     text-align: right;
-    padding: 30px 0;
+    padding: 20px 0;
+		margin-left: 5px;
 }
 
 .header-widgets .widget .info-icon .content span {
@@ -737,20 +738,20 @@ input[type="submit"] {
 }
 
 .header .header-wrap {
-	max-width: 1920px;	
-	margin: 0 auto;	
+	max-width: 1920px;
+	margin: 0 auto;
 }
 
-.header .header-wrap .logo {	
+.header .header-wrap .logo {
 	width: 186px;
 	height: 45px;
 	-webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
 		-ms-transition: all 0.3s ease-in-out;
 		 -o-transition: all 0.3s ease-in-out;
-			transition: all 0.3s ease-in-out;	
+			transition: all 0.3s ease-in-out;
 	float: left;
-	margin: 38px 300px 0 60px;	
+	margin: 38px 300px 0 60px;
 }
 
 .header .header-wrap .show-search {
@@ -759,20 +760,20 @@ input[type="submit"] {
 
 .header .header-wrap .show-search {
 	line-height: 120px;
-	padding-right: 38px;		
+	padding-right: 38px;
 }
 
 /* Header Fix */
 #header.downscrolled {
 	position: fixed;
 	top: 0;
-	width: 100%;	
+	width: 100%;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
        opacity: 0;
-        filter: alpha(opacity=0); 
+        filter: alpha(opacity=0);
     top: -60px;
-    max-width: 1920px;  
-	margin: 0 auto;	
+    max-width: 1920px;
+	margin: 0 auto;
     z-index: 999999;
     -webkit-transition: all 0.5s ease-in-out;
        -moz-transition: all 0.5s ease-in-out;
@@ -783,10 +784,10 @@ input[type="submit"] {
 
 #header.upscrolled {
     opacity: 1;
-    top: 0;	  
-    max-width: 1920px;     
-	margin: 0 auto;	
-	background: #fff;	
+    top: 0;
+    max-width: 1920px;
+	margin: 0 auto;
+	background: #fff;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.04);
 	z-index: 999999;
@@ -843,7 +844,7 @@ input[type="submit"] {
 }
 
 #mainnav > ul > li {
-   display: inline-block;   
+   display: inline-block;
 }
 
 #mainnav > ul > li > a {
@@ -853,8 +854,8 @@ input[type="submit"] {
     font-weight: 500;
     font-size: 16px;
 	text-transform: capitalize;
-    color: #fff;   
-    text-decoration: none; 
+    color: #fff;
+    text-decoration: none;
     line-height: 80px;
     padding: 0 20px 0 20px;
     outline: none;
@@ -957,7 +958,7 @@ input[type="submit"] {
 #mainnav ul.submenu > li > a {
 	color: #a6a6a6;
     padding: 5px 30px;
-    font-size: 14px;    
+    font-size: 14px;
     display: block;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
@@ -984,15 +985,15 @@ input[type="submit"] {
 /* Mega Menu */
 #mainnav .mega-menu {
     position: absolute;
-    top: 120px;  
+    top: 120px;
     left: 0;
     margin: 0 -15px;
-    text-align: left;    
+    text-align: left;
     z-index: 9999;
     background-color: #222222;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
    	  filter: alpha(opacity=0);
-     opacity: 0;  
+     opacity: 0;
     visibility: hidden;
    -webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
@@ -1162,7 +1163,7 @@ input[type="submit"] {
 }
 
 .btn-menu:before,
-.btn-menu:after, 
+.btn-menu:after,
 .btn-menu span {
 	background-color: #fff;
     -webkit-transition: all ease .238s;
@@ -1239,7 +1240,7 @@ input[type="submit"] {
 }
 
 .btn-menu {
-   display: none 
+   display: none
 }
 
 /* Shop card */
@@ -1744,6 +1745,13 @@ blockquote {
 	position: relative;
 }
 
+.content-bottom-widgets .widget.widget_text .textwidget h2 {
+	color: #00BAC9;
+	display: inline !important;
+	margin-left: 5px;
+	padding-top: 5px;
+}
+
 .content-bottom-widgets .widget.widget_text .textwidget:after {
 	position: absolute;
 	right: -15px;
@@ -1882,10 +1890,10 @@ blockquote {
     overflow-x: hidden;
 }
 
-.home-boxed .boxed {	
+.home-boxed .boxed {
 	width: 92.70833333333333%;
 	margin: 0 auto;
-	position: relative;	
+	position: relative;
 	background: #fff;
 	height: 100%;
   	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -1966,7 +1974,7 @@ blockquote {
    	font-size: 25px;
    	color: #999;
     -webkit-animation: fa-spin 2s infinite linear;
-            animation: fa-spin 2s infinite linear; 
+            animation: fa-spin 2s infinite linear;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
@@ -1987,7 +1995,7 @@ blockquote {
    margin-bottom: 10px;
 }
 
-.switcher-container .selector-box {   
+.switcher-container .selector-box {
    color: #fff;
    overflow: hidden;
 }
@@ -2046,7 +2054,7 @@ blockquote {
 			transition: all 0.3s;
 }
 
-.sw-even a {	
+.sw-even a {
 	font-family: "Karla", sans-serif;
     text-transform: uppercase;
 	font-size: 12px;
@@ -2069,7 +2077,7 @@ blockquote {
 	color: #000 !important;
 }
 
-.sw-odd a {	
+.sw-odd a {
 	font-size: 16px;
 	color: #fff;
 	width: 100%;
@@ -2087,12 +2095,12 @@ blockquote {
 .sw-odd .ws-colors a {
 	position: relative;
 	width: auto;
-	padding: 0;	
+	padding: 0;
 	width: 30px;
 	height: 30px;
-	background-color: #32bfc0;	
+	background-color: #32bfc0;
 	display: inline-block;
-	margin-right: 5px;	
+	margin-right: 5px;
 	overflow: hidden;
 }
 
@@ -2146,7 +2154,7 @@ blockquote {
 	padding: 20px;
 }
 
-.sw-pattern.pattern a {	
+.sw-pattern.pattern a {
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -2170,7 +2178,7 @@ blockquote {
 .go-top {
    	position: fixed !important;
    	right: -35px;
-	bottom: 15px;   
+	bottom: 15px;
    	width: 32px;
    	height: 32px;
    	-webkit-border-radius: 2px;
@@ -2178,10 +2186,10 @@ blockquote {
         -ms-border-radius: 2px;
          -o-border-radius: 2px;
     		border-radius: 2px;
-   	cursor: pointer;   
+   	cursor: pointer;
     background-color: #00bac9;
    	line-height: 32px;
-   	text-align: center;   	
+   	text-align: center;
    	-webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
 	    -ms-transition: all 0.3s ease-in-out;
@@ -2190,7 +2198,7 @@ blockquote {
    	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	   	filter: alpha(opacity=0);
 	  	opacity: 0;
-    
+
 }
 
 .go-top.show {
@@ -2205,7 +2213,7 @@ blockquote {
 	font-size: 14px;
 	color: #fff;
 	font-weight: 600;
-	padding-bottom: 3px;	
+	padding-bottom: 3px;
 }
 
 .go-top:hover {
@@ -2478,13 +2486,13 @@ blockquote {
 
 .parallax3 { background-image: url(../images/parallax/bg-parallax3.html); }
 
-.bg-contact { 
+.bg-contact {
 	background-image: url(../images/parallax/bg-parallax5.html);
     background-repeat: no-repeat;
-    background-position: center center;    
+    background-position: center center;
 }
 
-.bg-playvideo { background-image: url(../images/parallax/bg-parallax2.html); } 
+.bg-playvideo { background-image: url(../images/parallax/bg-parallax2.html); }
 .bg-playvideo { background-size: cover; }
 
 .parallax4 { background-image: url(../images/parallax/bg-parallax4.html); }
@@ -2511,18 +2519,18 @@ blockquote {
 .tp-bullets.simplebullets .bullet {
 	cursor: pointer;
 	position: relative !important;
-	background: #fff !important;	
+	background: #fff !important;
 	width: 16px !important;
-	height: 16px !important;	
+	height: 16px !important;
 	display: inline-block;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
        filter: alpha(opacity=60);
-      opacity: 0.6;	
+      opacity: 0.6;
 	-webkit-box-shadow: none;
 	   -moz-box-shadow: none;
 			box-shadow: none;
 	margin-right: 5px !important;
-	-webkit-border-radius: 50%;	
+	-webkit-border-radius: 50%;
 	   -moz-border-radius: 50%;
 	     -o-border-radius: 50%;
 	    -ms-border-radius: 50%;
@@ -2548,11 +2556,11 @@ blockquote {
 	background: #fff !important;
 	width: 16px !important;
 	height: 16px !important;
-	-webkit-border-radius: 50%;	
+	-webkit-border-radius: 50%;
 	   -moz-border-radius: 50%;
 	     -o-border-radius: 50%;
 	    -ms-border-radius: 50%;
-			border-radius: 50%;	
+			border-radius: 50%;
 }
 
 /* Preload
@@ -2568,7 +2576,7 @@ blockquote {
     z-index: 99999999;
 }
 
-.loader, .loader:after {    
+.loader, .loader:after {
     width: 30px;
     height: 30px;
 }
@@ -2584,7 +2592,7 @@ blockquote {
     border-bottom: 1.1em solid rgba(203, 203, 203, 0.5);
     border-left: 1em solid #00bac9;
     -webkit-animation: fa-spin 2s infinite linear;
-           animation: fa-spin 2s infinite linear;     
+           animation: fa-spin 2s infinite linear;
 }
 
 @-moz-keyframes bounceG{
