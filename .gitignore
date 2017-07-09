@@ -1,7 +1,7 @@
 404.html
 projects-fullwidth.html
 services-decoration-furniture.html
-about.html
+#about.html
 gallery-grid.html
 index-2.html
 projects-grid-alt.html
@@ -31,3 +31,4 @@ search-results.html
 pricing-table.html
 services-architectural-planning.html
 testimonials.html
+.vscode/
