@@ -222,6 +222,7 @@
         -ms-border-radius: 2px;
          -o-border-radius: 2px;
             border-radius: 2px;
+    height: 230px;
 }
 
 .flat-iconbox .iconbox .box-header {
@@ -262,6 +263,7 @@
 /* About
 -------------------------------------------------------------- */
 .about-right {
+    margin: 50px 0;
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
@@ -1691,6 +1693,7 @@
 }
 
 .imagebox .box-content {
+    height: 250px;
     padding: 20px;
     position: relative;
 }
